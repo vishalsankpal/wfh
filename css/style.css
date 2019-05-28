@@ -1,0 +1,720 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Pp;
+    src: url(./fonts/ProximaNova-Regular.otf);
+}
+
+header {
+    background: -webkit-gradient(linear, left top, left bottom, from(#0f2829de), to(#36cbcedb)), url(../images/hero.jpeg);
+    background: -webkit-linear-gradient(top, #0f2829de, #36cbcedb), url(../images/hero.jpeg);
+    background: -o-linear-gradient(top, #0f2829de, #36cbcedb), url(../images/hero.jpeg);
+    background: linear-gradient(to bottom, #0f2829de, #36cbcedb), url(../images/hero.jpeg);
+    height: 100vh;
+    background-attachment: fixed;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+header .bg-light {
+    background-color: black !important;
+}
+
+header .navbar-collapse {
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+    margin-left: auto;
+}
+
+header .navbar-brand {
+    font-family: 'Pp';
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+header .nav-link {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.62;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+    text-align: center;
+}
+
+header .line {
+    width: 98%;
+    height: 1px;
+    opacity: 0.2;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+header .content {
+    position: absolute;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    top: 50%;
+    left: 12%
+}
+
+header .content .welcome-to-Wapik {
+    font-family: 'Roboto';
+    font-size: 48px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.55;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+header .content .wepik-para {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.btn-success {
+    background-color: #6fb048;
+    border-radius: 1px;
+    padding: 10px 40px;
+}
+
+/* feature section */
+.best-feature {
+    margin: 10% 0;
+}
+
+.best-feature .best-of-our-feature {
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0f5f5c;
+}
+
+.best-feature .feature-below-line {
+    height: 1px;
+    width: 12%;
+    margin: 0 auto;
+    background-color: #6fb048;
+}
+
+.best-feature .lorem-lipsum {
+    font-family: 'Roboto';
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #83a7a5;
+}
+
+.best-feature .ionicons {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0f5f5c;
+}
+
+.best-feature .ionicons-grid-content {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: center;
+    color: #83a7a5;
+}
+
+.best-feature .fas,
+.far {
+    color: green;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.best-feature .cross-browser {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0f5f5c;
+}
+
+.best-feature .cross-browser-info {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #83a7a5;
+}
+
+
+/* perfect-template */
+.perfect-template {
+    background-color: #eef1ec;
+}
+
+.perfect-template .space {
+    padding-top: 8%;
+}
+
+.perfect-template .section-heading {
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.20;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0f5f5c;
+}
+
+.perfect-template .perfect-template-below-line {
+    height: 1px;
+    width: 20%;
+    background-color: #6fb048;
+    margin: 0 auto;
+
+}
+
+.perfect-template .perfect-template-paragraph {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.70;
+    letter-spacing: normal;
+    text-align: center;
+    color: #83a7a5;
+}
+
+.perfect-template .img-edit {
+    width: 100%;
+}
+
+.perfect-template .responsive-ready {
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0f5f5c;
+
+}
+
+.perfect-template .responsive-info {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #83a7a5;
+}
+
+.fa-check {
+    color: grey;
+}
+
+.check-content {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #83a7a5;
+}
+
+/* pricing and planning */
+.pricing-planning {
+    margin: 10% 0;
+}
+
+.pricing-planning .pricing-planning-heading {
+    font-family: 'Roboto';
+    font-size: 34px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0f5f5c;
+}
+
+.pricing-planning .pricing-planning-heading-feature-below-line {
+    height: 1px;
+    width: 12%;
+    margin: 0 auto;
+    background-color: #6fb048;
+}
+
+.pricing-planning .pricing-planning-para {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.70;
+    letter-spacing: normal;
+    text-align: center;
+    color: #83a7a5;
+
+}
+
+.pricing-planning .custom-grid .basic {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #6fb048;
+}
+
+.pricing-planning .custom-grid .pricing {
+    font-family: 'Montserrat';
+    font-size: 54px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.66;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0f5f5c;
+}
+
+.custom-grid {
+    border: solid 0.5px #c1d3d2;
+    background-color: #ffffff;
+    padding: 36px;
+}
+
+.pricing-planning .custom-grid .pricing .months {
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0f5f5c;
+}
+
+.pricing-planning .custom-grid .custom-ul {
+    list-style: none;
+    padding: 0;
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.50;
+    letter-spacing: normal;
+    text-align: center;
+    color: #83a7a5;
+}
+
+/* plans */
+.all-plans {}
+
+.all-plans .pln-heade {
+    font-family: 'Roboto';
+    font-size: 34px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.91;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0f5f5c;
+}
+
+.all-plans .plan {
+    margin-top: 5%;
+}
+
+.all-plans .planning-heading-below-line {
+    height: 1px;
+    width: 12%;
+    margin: 0 auto;
+    background-color: #6fb048;
+}
+
+.all-plans .planning-para-check {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #83a7a5;
+}
+
+/* need-help */
+
+.need-help {
+    margin: 5% 0;
+}
+
+.need-help .need-help-heading {
+    font-family: 'Roboto';
+    font-size: 34px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: center;
+    color: #6fb048;
+}
+
+.need-help .need-help-heading-below-line {
+    height: 1px;
+    width: 12%;
+    margin: 0 auto;
+    background-color: #6fb048;
+}
+
+.need-help .contact-paraa {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.70;
+    letter-spacing: normal;
+    text-align: center;
+    color: #83a7a5;
+}
+
+.need-help .email {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.11;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0f5f5c;
+}
+
+.do-you-like {
+    padding: 5% 0;
+    background-color: rgba(238, 241, 236, 0.95);
+}
+
+.do-you-like .do-u-like {
+    font-family: 'Roboto';
+    font-size: 26px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.79;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0f5f5c;
+}
+
+.do-you-like .like-para {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    text-align: left;
+    color: #83a7a5;
+}
+
+.button-ofdownload {
+    text-align: center;
+}
+
+.download-content {
+    text-align: center
+}
+
+/* mega footer */
+.mega-footer {
+    margin: 5% 0;
+}
+
+.mega-footer .ftr-logo {
+    font-family: 'ProximaNova';
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0f5f5c;
+    text-transform: uppercase;
+}
+
+.mega-footer .ftr-details {
+    list-style: none;
+    padding: 0;
+}
+
+.mega-footer .ftr-details .company-email {
+    color: #0f5f5c;
+    font-family: 'Roboto-Regular';
+    font-weight: bold;
+}
+
+.mega-footer .contact-no {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.15;
+    letter-spacing: normal;
+    text-align: left;
+    color: #83a7a5;
+}
+
+.mega-footer .address {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.15;
+    letter-spacing: normal;
+    text-align: left;
+    color: #83a7a5;
+}
+
+.mega-footer .ftr-cmp {
+    font-family: 'ProximaNova';
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0f5f5c;
+    text-transform: uppercase;
+}
+
+.mega-footer .ftr-link {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.15;
+    letter-spacing: normal;
+    text-align: left;
+    color: #83a7a5;
+}
+
+.custom-input {
+    display: inline-block;
+    width: 24%;
+    height: 37px;
+    font-size: 15px;
+}
+
+.form-control {
+    width: 75%;
+    display: inline-block;
+    border-right: none;
+    background-color: transparent;
+}
+
+.fa-paper-plane {
+    color: green;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.ftr-below-line {
+    height: 1px;
+    width: 92%;
+    margin: 0 auto;
+    background-color: #80808045;
+}
+
+.rights-reserved {
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #83a7a5;
+}
+
+.icon {
+    color: white;
+    background-color: #55acee;
+    border-radius: 50%;
+    width: 30px;
+    height: 28px;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.fa-facebook {
+    background-color: #3b5998;
+}
+
+.fa-instagram {
+    background: #f09433;
+}
+
+.fa-github-alt {
+    background-color: black;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    header .bg-light {
+        background-color: transparent !important;
+    }
+
+    .containe {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 960px;
+    }
+
+    .perfect-template .perfect-content {
+        padding-top: 20px;
+    }
+
+    .button-ofdownload {
+        text-align: right;
+    }
+
+    .download-content {
+        text-align: left;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    header .bg-light {
+        background-color: transparent !important;
+    }
+
+    .containe {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1140px;
+    }
+
+    .perfect-template .perfect-content {
+        padding-top: 20px;
+    }
+
+    .button-ofdownload {
+        text-align: right;
+    }
+
+    .download-content {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar {
+        position: absolute;
+        width: 100%;
+        z-index: 5;
+        display: -ms-flexbox;
+        display: -webkit-box;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: center;
+        -webkit-box-align: center;
+                align-items: center;
+        -ms-flex-pack: justify;
+        -webkit-box-pack: justify;
+                justify-content: space-between;
+        padding: .5rem 1rem;
+    }
+}
